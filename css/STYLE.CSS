@@ -923,6 +923,13 @@ font-family: '29lt_bukrabold_italic';
 
 .footer-menu ul li a:hover{color: var(--main-clr)}
 
+
+@media (min-width:768px) and (max-width:992px){
+    
+    .footer-menu ul li a span:first-of-type{display: block}   
+    .footer-menu h5{font-size: 15px;font-weight: 900}
+}
+
 .Social-media span a{
     margin-right: 20px;
     text-decoration: none;
@@ -967,7 +974,7 @@ font-family: '29lt_bukrabold_italic';
 }
 
 @media (max-width:500px){
-    .banner-5{height: 2px}   
+    .banner-5{height: 3px}   
     
 }
 
